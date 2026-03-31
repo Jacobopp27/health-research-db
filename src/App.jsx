@@ -6,7 +6,7 @@ import IngredientPage from './pages/IngredientPage'
 function App() {
   return (
     <div style={{ minHeight: '100vh', background: '#f8fafc', color: '#555' }}>
-      <main style={{ paddingTop: 24 }}>
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ingredient/:slug" element={<IngredientPage />} />

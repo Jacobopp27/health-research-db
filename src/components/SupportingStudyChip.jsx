@@ -1,3 +1,4 @@
+import { ExternalLink } from 'lucide-react'
 import { useState } from 'react'
 
 function SupportingStudyChip({ study, onOpenStudy }) {
@@ -10,25 +11,34 @@ function SupportingStudyChip({ study, onOpenStudy }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
-        border: `1px solid ${hovered ? '#2a7530' : '#b8e0ba'}`,
-        borderRadius: 999,
-        background: hovered ? '#fff' : '#f0faf0',
-        padding: '5px 14px',
+        border: '1px solid',
+        borderColor: hovered ? '#2a7530' : '#c7e4c8',
+        borderRadius: 8,
+        background: hovered ? '#f0faf0' : '#f8fffe',
+        padding: '6px 13px',
         fontSize: 12, fontWeight: 500,
-        color: '#1a4d1f',
+        color: hovered ? '#1a4d1f' : '#2a7530',
         cursor: 'pointer',
         textAlign: 'left',
         transition: 'all 0.15s',
         fontFamily: '"Poppins", system-ui, sans-serif',
-        maxWidth: '100%',
-        display: 'inline-block',
+        maxWidth: 320,
+        display: 'inline-flex', alignItems: 'center', gap: 7,
         overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        whiteSpace: 'nowrap',
+        boxShadow: hovered ? '0 2px 8px rgba(42,117,48,0.12)' : 'none',
       }}
       title={study.title}
     >
-      {study.year} · {study.authors?.[0] ?? ''} — {study.title}
+      <span style={{
+        fontSize: 10, fontWeight: 800, color: '#94a3b8',
+        letterSpacing: '0.06em', flexShrink: 0,
+      }}>{study.year}</span>
+      <span style={{
+        overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1,
+      }}>
+        {study.authors?.[0] ?? ''} — {study.title}
+      </span>
+      <ExternalLink size={11} style={{ flexShrink: 0, opacity: hovered ? 1 : 0.5 }} />
     </button>
   )
 }

@@ -1,3 +1,4 @@
+import { Globe } from 'lucide-react'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
@@ -20,27 +21,27 @@ function LanguageToggle() {
         zIndex: 100,
         display: 'flex',
         alignItems: 'center',
-        gap: 8,
-        border: '2px solid #2a7530',
+        gap: 7,
+        border: '2px solid',
+        borderColor: hovered ? '#1a4d1f' : '#2a7530',
         borderRadius: 999,
-        background: hovered ? '#f0faf0' : '#fff',
-        boxShadow: '0 4px 16px rgba(0,0,0,0.14)',
-        padding: '10px 18px',
-        fontSize: 15,
+        background: hovered ? '#2a7530' : '#fff',
+        boxShadow: hovered
+          ? '0 6px 20px rgba(42,117,48,0.35)'
+          : '0 3px 14px rgba(0,0,0,0.13)',
+        padding: '9px 16px',
+        fontSize: 13,
         fontWeight: 700,
-        color: '#1a4d1f',
+        color: hovered ? '#fff' : '#1a4d1f',
         cursor: 'pointer',
-        transition: 'all 0.15s',
+        transition: 'all 0.2s ease',
         fontFamily: '"Poppins", system-ui, sans-serif',
         transform: hovered ? 'translateY(-2px)' : 'none',
+        letterSpacing: '0.06em',
       }}
     >
-      <span style={{ fontSize: 20, lineHeight: 1 }}>
-        {isSpanish ? '🇺🇸' : '🇪🇸'}
-      </span>
-      <span style={{ fontSize: 13 }}>
-        {isSpanish ? 'EN' : 'ES'}
-      </span>
+      <Globe size={15} strokeWidth={2.2} />
+      <span>{isSpanish ? 'EN' : 'ES'}</span>
     </button>
   )
 }
