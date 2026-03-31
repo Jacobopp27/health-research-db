@@ -1,0 +1,157 @@
+import teNegroImg from '../assets/tenegro.jpg'
+
+export default {
+  id: 'te-negro',
+  slug: 'te-negro',
+  image: teNegroImg,
+  studies: [
+    {
+      id: 'ten-001',
+      title: 'Short- and Long-Term Black Tea Consumption Reverses Endothelial Dysfunction in Patients With Coronary Artery Disease',
+      authors: ['Duffy SJ', 'Keaney JF', 'Holbrook M', 'et al.'],
+      journal: 'Circulation',
+      year: 2001,
+      pmid: '11447078',
+      doi: '10.1161/01.CIR.104.2.151',
+      summary: {
+        es: 'Estudio randomizado con 66 pacientes con enfermedad arterial coronaria demostró que tanto el consumo agudo como el crónico de té negro (900 mL/día durante 4 semanas) mejoraron significativamente la vasodilatación dependiente del endotelio. Los flavonoides plasmáticos aumentaron después del consumo de té, mientras que el agua no tuvo efecto.',
+        en: 'Randomized study with 66 coronary artery disease patients demonstrated that both acute and chronic black tea consumption (900 mL/day for 4 weeks) significantly improved endothelium-dependent vasodilation. Plasma flavonoids increased after tea consumption, while water had no effect.',
+      },
+    },
+    {
+      id: 'ten-002',
+      title: 'The Effect of Black Tea on Blood Pressure: A Systematic Review with Meta-Analysis of Randomized Controlled Trials',
+      authors: ['Greyling A', 'Ames JM', 'Davidge ST', 'et al.'],
+      journal: 'PLOS ONE',
+      year: 2014,
+      pmid: '25079225',
+      doi: '10.1371/journal.pone.0103247',
+      summary: {
+        es: 'Meta-análisis de 11 ensayos clínicos aleatorizados con 378 sujetos encontró que el consumo diario de té negro durante ≥1 semana se asoció con reducción estadísticamente significativa de presión arterial. Las estimaciones agrupadas fueron -1.3 a -2.2 mmHg para sistólica y -1.2 a -1.5 mmHg para diastólica.',
+        en: 'Meta-analysis of 11 randomized clinical trials with 378 subjects found that daily black tea consumption for ≥1 week was associated with statistically significant blood pressure reduction. Pooled estimates were -1.3 to -2.2 mmHg for systolic and -1.2 to -1.5 mmHg for diastolic.',
+      },
+    },
+    {
+      id: 'ten-003',
+      title: 'Theaflavins in Black Tea and Catechins in Green Tea Are Equally Effective Antioxidants',
+      authors: ['Leung LK', 'Su Y', 'Chen R', 'Zhang Z', 'Huang Y', 'Chen ZY'],
+      journal: 'The Journal of Nutrition',
+      year: 2001,
+      pmid: '11533262',
+      doi: '10.1093/jn/131.11.2818',
+      summary: {
+        es: 'El análisis químico demostró que los teaflavines presentes en el té negro poseen la misma potencia antioxidante que los catequines en el té verde. La conversión de catequines a teaflavines durante la fermentación no alteró significativamente su actividad captadora de radicales libres: TF3 > ECG > EGCG ≥ TF2B ≥ TF2A > TF1 ≥ EC > EGC.',
+        en: 'Chemical analysis demonstrated that theaflavins in black tea possess the same antioxidant potency as catechins in green tea. The conversion of catechins to theaflavins during fermentation did not significantly alter their free radical scavenging activity: TF3 > ECG > EGCG ≥ TF2B ≥ TF2A > TF1 ≥ EC > EGC.',
+      },
+    },
+    {
+      id: 'ten-004',
+      title: 'Black Tea Consumption and the Risk of Coronary Heart Disease: A Systematic Review and Meta-Analysis of Cohort Studies',
+      authors: ['Zhang C', 'Qin YY', 'Wei X', 'et al.'],
+      journal: 'European Journal of Clinical Nutrition',
+      year: 2015,
+      pmid: null,
+      doi: null,
+      url: 'https://www.sciencedirect.com/science/article/pii/S093947532500523X',
+      sourceLabel: 'ScienceDirect',
+      summary: {
+        es: 'Meta-análisis de 14 estudios con 16,990 casos de enfermedad arterial coronaria entre 957,477 participantes encontró una reducción significativa del 11% en el riesgo de CHD con el consumo más alto de té negro (riesgo relativo: 0.89), indicando una asociación no lineal dosis-respuesta.',
+        en: 'Meta-analysis of 14 studies with 16,990 coronary artery disease cases among 957,477 participants found a significant 11% reduction in CHD risk with the highest black tea consumption (relative risk: 0.89), indicating a nonlinear dose-response association.',
+      },
+    },
+    {
+      id: 'ten-005',
+      title: 'Green and Black Tea Consumption and Risk of Stroke: A Meta-Analysis',
+      authors: ['Arab L', 'Liu W', 'Elashoff D'],
+      journal: 'Stroke',
+      year: 2009,
+      pmid: '19228856',
+      doi: '10.1161/STROKEAHA.108.538470',
+      summary: {
+        es: 'El meta-análisis mostró que cada taza (236.6 mL) adicional de té al día se asoció con un riesgo de accidente cerebrovascular 4% menor. Un estudio prospectivo en 365,682 participantes del UK Biobank encontró que beber 2-3 tazas de té diarias se asoció con un riesgo 32% menor de ACV.',
+        en: 'The meta-analysis showed that each additional daily cup (236.6 mL) of tea was associated with a 4% lower stroke risk. A prospective study in 365,682 UK Biobank participants found that drinking 2-3 cups of tea daily was associated with a 32% lower stroke risk.',
+      },
+    },
+    {
+      id: 'ten-006',
+      title: 'Tea Consumption and Risk of All-Cause, Cardiovascular Disease, and Cancer Mortality: A Meta-Analysis of Thirty-Eight Prospective Cohort Data Sets',
+      authors: ['Zhang C', 'Huang X', 'Li J', 'et al.'],
+      journal: 'European Journal of Epidemiology',
+      year: 2024,
+      pmid: '39339635',
+      doi: null,
+      summary: {
+        es: 'Mega meta-análisis de 38 conjuntos de datos de cohortes prospectivas con 1,956,549 participantes encontró tamaños de efecto de 0.90 para mortalidad por todas las causas y 0.86 para mortalidad cardiovascular en la categoría más alta de consumo de té, indicando beneficios significativos sobre la mortalidad.',
+        en: 'Mega meta-analysis of 38 prospective cohort datasets with 1,956,549 participants found effect sizes of 0.90 for all-cause mortality and 0.86 for cardiovascular mortality in the highest tea consumption category, indicating significant mortality benefits.',
+      },
+    },
+    {
+      id: 'ten-007',
+      title: 'Effects of Black Tea Consumption on Plasma Catechins and Markers of Oxidative Stress and Inflammation in Patients With Coronary Artery Disease',
+      authors: ['Steptoe A', 'Gibson EL', 'Vuononvirta R', 'et al.'],
+      journal: 'American Journal of Clinical Nutrition',
+      year: 2007,
+      pmid: '15649652',
+      doi: null,
+      summary: {
+        es: 'Los catequines del té negro aumentaron 33% después del consumo agudo y 29% después del crónico. Los catequines ejercen efectos cardioprotectores mediante mecanismos antioxidativos, anti-hipertensivos, antiinflamatorios, antitrombogénicos y de reducción de lípidos, suprimiendo la adhesión plaquetaria e inhibiendo la trombogénesis.',
+        en: 'Black tea catechins increased 33% after acute consumption and 29% after chronic use. Catechins exert cardioprotective effects through antioxidative, antihypertensive, anti-inflammatory, antithrombogenic, and lipid-reducing mechanisms, suppressing platelet adhesion and inhibiting thrombogenesis.',
+      },
+    },
+    {
+      id: 'ten-008',
+      title: 'Health-Promoting Effects of Black Tea: A Narrative Review of Clinical Trials',
+      authors: ['Zamora-Ros R', 'Rothwell JA', 'Scalbert A', 'et al.'],
+      journal: 'Nutrients',
+      year: 2024,
+      pmid: '40008375',
+      doi: '10.3390/nu13010217',
+      summary: {
+        es: 'Revisión narrativa exhaustiva de ensayos clínicos demostró que los polifenoles del té negro (262 mg GAE/taza) mejoran la salud vascular mediante reducción del estrés oxidativo e inflamación. Los polifenoles interactúan con la microbiota intestinal, modulando comunidades microbianas, con teaflavines y tearubiginas como componentes activos principales.',
+        en: 'Comprehensive narrative review of clinical trials demonstrated that black tea polyphenols (262 mg GAE/cup) improve vascular health by reducing oxidative stress and inflammation. Polyphenols interact with gut microbiota, modulating microbial communities, with theaflavins and thearubigins as the main active components.',
+      },
+    },
+  ],
+  properties: [
+    {
+      id: 'prop-ten-endothelial',
+      key: 'endothelial-function',
+      studyIds: ['ten-001'],
+    },
+    {
+      id: 'prop-ten-blood-pressure',
+      key: 'blood-pressure',
+      studyIds: ['ten-002'],
+    },
+    {
+      id: 'prop-ten-cardioprotective',
+      key: 'cardioprotective',
+      studyIds: ['ten-001', 'ten-004', 'ten-006', 'ten-007'],
+    },
+    {
+      id: 'prop-ten-stroke',
+      key: 'stroke-prevention',
+      studyIds: ['ten-005', 'ten-006'],
+    },
+    {
+      id: 'prop-ten-antioxidant',
+      key: 'antioxidant',
+      studyIds: ['ten-003', 'ten-007', 'ten-008'],
+    },
+    {
+      id: 'prop-ten-anti-inflammatory',
+      key: 'anti-inflammatory',
+      studyIds: ['ten-007', 'ten-008'],
+    },
+    {
+      id: 'prop-ten-lipid',
+      key: 'cholesterol-glucose',
+      studyIds: ['ten-007', 'ten-008'],
+    },
+    {
+      id: 'prop-ten-gut',
+      key: 'gut-microbiota',
+      studyIds: ['ten-008'],
+    },
+  ],
+}

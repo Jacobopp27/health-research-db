@@ -1,0 +1,175 @@
+{
+  "site": {
+    "title": "MultyHealth",
+    "subtitle": "Banco de Investigaciones Científicas",
+    "tagline": "Vive la transformación — Be naturally healthy"
+  },
+  "nav": {
+    "home": "Inicio",
+    "back": "← Volver al inicio"
+  },
+  "common": {
+    "language": "Idioma",
+    "notFound": "Ingrediente no encontrado",
+    "viewIngredient": "Ver ingrediente",
+    "studyCount": "{{count}} estudios",
+    "propertyCount": "{{count}} propiedades"
+  },
+  "tabs": {
+    "studies": "Estudios",
+    "properties": "Propiedades"
+  },
+  "study": {
+    "authors": "Autores",
+    "journal": "Revista",
+    "year": "Año",
+    "source": "Fuente",
+    "viewPubmed": "Ver en PubMed",
+    "viewDoi": "Ver DOI",
+    "viewSource": "Ver fuente",
+    "summary": "Resumen"
+  },
+  "property": {
+    "supportedBy": "Respaldado por {{count}} estudio(s)"
+  },
+  "ingredients": {
+    "ganoderma": {
+      "name": "Hongo Ganoderma Lucidum",
+      "tagline": "El hongo de la inmortalidad"
+    },
+    "resveratrol": {
+      "name": "Piel y Semilla de Uva",
+      "tagline": "Resveratrol — Polifenol antienvejecimiento"
+    },
+    "inulina": {
+      "name": "Miel de Agave Azul",
+      "tagline": "Inulina — El prebiótico natural"
+    },
+    "te-negro": {
+      "name": "Té Negro",
+      "tagline": "Teaflavines para la salud cardiovascular"
+    },
+    "mucilago-cafe": {
+      "name": "Miel del Mucílago y Pulpa de Café",
+      "tagline": "Los subproductos más poderosos del café"
+    }
+  },
+  "properties": {
+    "anticancer": {
+      "label": "Anticancerígeno",
+      "description": "Inhibe la proliferación de células tumorales e induce apoptosis en diversos tipos de cáncer."
+    },
+    "immunomodulatory": {
+      "label": "Inmunomodulador",
+      "description": "Activa y regula células del sistema inmune como linfocitos T, B, células NK y macrófagos."
+    },
+    "antioxidant": {
+      "label": "Antioxidante",
+      "description": "Neutraliza radicales libres, reduce el estrés oxidativo y protege las células del daño."
+    },
+    "hepatoprotective": {
+      "label": "Hepatoprotector",
+      "description": "Protege el hígado contra el daño oxidativo, la inflamación y la esteatosis hepática."
+    },
+    "anti-fatigue": {
+      "label": "Antifatiga",
+      "description": "Reduce la fatiga física y mental, especialmente en contextos de quimioterapia."
+    },
+    "anti-inflammatory": {
+      "label": "Antiinflamatorio",
+      "description": "Inhibe citoquinas proinflamatorias como TNF-α e IL-6 mediante vías de señalización celular."
+    },
+    "neuroprotective": {
+      "label": "Neuroprotector",
+      "description": "Protege el cerebro contra el daño neurodegenerativo y mejora la función cognitiva."
+    },
+    "cardiovascular": {
+      "label": "Cardiovascular",
+      "description": "Mejora la función endotelial, reduce la presión arterial y protege contra enfermedades del corazón."
+    },
+    "anticancer-colon": {
+      "label": "Anticancerígeno (Colon)",
+      "description": "Potencia la apoptosis de células de cáncer de colon a través de vías dependientes de p53."
+    },
+    "metabolic": {
+      "label": "Salud Metabólica",
+      "description": "Mejora el control glucémico, la sensibilidad a la insulina y los perfiles lipídicos."
+    },
+    "anti-obesity": {
+      "label": "Anti-obesidad",
+      "description": "Suprime la diferenciación de adipocitos y reduce la acumulación de grasa corporal."
+    },
+    "prebiotic": {
+      "label": "Prebiótico",
+      "description": "Enriquece la microbiota intestinal beneficiosa, especialmente Bifidobacterium y Lactobacillus."
+    },
+    "weight-loss": {
+      "label": "Control de Peso",
+      "description": "Reduce la grasa corporal total y previene la ganancia de peso en modelos experimentales."
+    },
+    "glucose-control": {
+      "label": "Control Glucémico",
+      "description": "Reduce la glucosa en ayunas, HbA1c y mejora la sensibilidad a la insulina."
+    },
+    "lipid-management": {
+      "label": "Control de Lípidos",
+      "description": "Reduce el colesterol total, triglicéridos y LDL, mientras incrementa el HDL."
+    },
+    "gut-health": {
+      "label": "Salud Gastrointestinal",
+      "description": "Mejora la laxación, protege la mucosa intestinal y produce ácidos grasos de cadena corta."
+    },
+    "barrier-integrity": {
+      "label": "Integridad de la Barrera Intestinal",
+      "description": "Fortalece la mucosa, aumenta la producción de moco y protege la arquitectura del epitelio colónico."
+    },
+    "metabolic-syndrome": {
+      "label": "Síndrome Metabólico",
+      "description": "Ayuda a reducir resistencia a la insulina, adiposidad, esteatosis y otros marcadores del síndrome metabólico."
+    },
+    "endothelial-function": {
+      "label": "Función Endotelial",
+      "description": "Mejora la vasodilatación dependiente del endotelio y la salud del revestimiento vascular."
+    },
+    "cardioprotective": {
+      "label": "Cardioprotector",
+      "description": "Reduce el riesgo cardiovascular y apoya la función vascular, trombótica y metabólica del corazón."
+    },
+    "blood-pressure": {
+      "label": "Presión Arterial",
+      "description": "Reduce significativamente la presión sistólica y diastólica en adultos con hipertensión."
+    },
+    "stroke-prevention": {
+      "label": "Prevención de ACV",
+      "description": "Reduce el riesgo de accidente cerebrovascular en un 4% por taza adicional de consumo diario."
+    },
+    "cholesterol-glucose": {
+      "label": "Control de Colesterol y Glucosa",
+      "description": "Favorece perfiles lipídicos y glucémicos más saludables mediante polifenoles y catequinas bioactivas."
+    },
+    "gut-microbiota": {
+      "label": "Microbiota Intestinal",
+      "description": "Modula la comunidad microbiana intestinal y favorece metabolitos asociados con salud sistémica."
+    },
+    "antimicrobial": {
+      "label": "Antimicrobiano",
+      "description": "Inhibe el crecimiento de bacterias patógenas como Staphylococcus, E. coli y patógenos ESKAPE resistentes."
+    },
+    "antidiabetic": {
+      "label": "Antidiabético",
+      "description": "Mejora el metabolismo de la glucosa y la función de la insulina con efectos comparables a metformina."
+    },
+    "wound-healing": {
+      "label": "Cicatrizante",
+      "description": "Promueve la migración celular y la reparación de tejidos."
+    }
+  },
+  "home": {
+    "intro": "Investigaciones científicas revisadas por pares sobre los 5 ingredientes activos de MultyHealth.",
+    "exploreBtn": "Explorar estudios",
+    "featured": "Explora evidencia por ingrediente",
+    "heroBadge": "Base científica bilingüe",
+    "naturalIngredients": "Ingredientes naturales",
+    "scientificStudies": "Estudios científicos"
+  }
+}

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f0faf0;
+  --color-brand-100: #dcf0dc;
+  --color-brand-200: #b8e0ba;
+  --color-brand-400: #4aaa52;
+  --color-brand-500: #2a7530;
+  --color-brand-600: #1f5c25;
+  --color-brand-700: #1a4d1f;
+  --color-brand-900: #0d2818;
+  --color-gold: #C9A227;
+  --color-gold-light: #f5e9c0;
+
+  --font-family-heading: "Lora", Georgia, serif;
+  --font-family-body: "Poppins", system-ui, sans-serif;
+  --font-family-sans: "Poppins", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, #root {
+  min-height: 100vh;
+}
+
+body {
+  font-family: var(--font-family-body);
+  background-color: #f8fafc;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(46, 163, 242, 0.2);
+}
+
+/* Heading font helper — Tailwind v4 generates font-heading from --font-family-heading */
+.font-heading, h1, h2, h3 {
+  font-family: var(--font-family-heading);
+}

@@ -1,0 +1,175 @@
+{
+  "site": {
+    "title": "MultyHealth",
+    "subtitle": "Scientific Research Database",
+    "tagline": "Live the transformation — Be naturally healthy"
+  },
+  "nav": {
+    "home": "Home",
+    "back": "← Back to home"
+  },
+  "common": {
+    "language": "Language",
+    "notFound": "Ingredient not found",
+    "viewIngredient": "View ingredient",
+    "studyCount": "{{count}} studies",
+    "propertyCount": "{{count}} properties"
+  },
+  "tabs": {
+    "studies": "Studies",
+    "properties": "Properties"
+  },
+  "study": {
+    "authors": "Authors",
+    "journal": "Journal",
+    "year": "Year",
+    "source": "Source",
+    "viewPubmed": "View on PubMed",
+    "viewDoi": "View DOI",
+    "viewSource": "View source",
+    "summary": "Summary"
+  },
+  "property": {
+    "supportedBy": "Supported by {{count}} study(ies)"
+  },
+  "ingredients": {
+    "ganoderma": {
+      "name": "Ganoderma Lucidum Mushroom",
+      "tagline": "The mushroom of immortality"
+    },
+    "resveratrol": {
+      "name": "Grape Skin & Seed",
+      "tagline": "Resveratrol — Anti-aging polyphenol"
+    },
+    "inulina": {
+      "name": "Blue Agave Honey",
+      "tagline": "Inulin — The natural prebiotic"
+    },
+    "te-negro": {
+      "name": "Black Tea",
+      "tagline": "Theaflavins for cardiovascular health"
+    },
+    "mucilago-cafe": {
+      "name": "Coffee Mucilage & Pulp Honey",
+      "tagline": "The most powerful coffee byproducts"
+    }
+  },
+  "properties": {
+    "anticancer": {
+      "label": "Anticancer",
+      "description": "Inhibits tumor cell proliferation and induces apoptosis in various cancer types."
+    },
+    "immunomodulatory": {
+      "label": "Immunomodulatory",
+      "description": "Activates and regulates immune cells including T cells, B cells, NK cells, and macrophages."
+    },
+    "antioxidant": {
+      "label": "Antioxidant",
+      "description": "Neutralizes free radicals, reduces oxidative stress, and protects cells from damage."
+    },
+    "hepatoprotective": {
+      "label": "Hepatoprotective",
+      "description": "Protects the liver against oxidative damage, inflammation, and hepatic steatosis."
+    },
+    "anti-fatigue": {
+      "label": "Anti-fatigue",
+      "description": "Reduces physical and mental fatigue, especially in chemotherapy contexts."
+    },
+    "anti-inflammatory": {
+      "label": "Anti-inflammatory",
+      "description": "Inhibits pro-inflammatory cytokines like TNF-α and IL-6 via cellular signaling pathways."
+    },
+    "neuroprotective": {
+      "label": "Neuroprotective",
+      "description": "Protects the brain against neurodegenerative damage and improves cognitive function."
+    },
+    "cardiovascular": {
+      "label": "Cardiovascular",
+      "description": "Improves endothelial function, reduces blood pressure, and protects against heart disease."
+    },
+    "anticancer-colon": {
+      "label": "Anticancer (Colon)",
+      "description": "Potentiates apoptosis of colon cancer cells through p53-dependent pathways."
+    },
+    "metabolic": {
+      "label": "Metabolic Health",
+      "description": "Improves glycemic control, insulin sensitivity, and lipid profiles."
+    },
+    "anti-obesity": {
+      "label": "Anti-obesity",
+      "description": "Suppresses adipocyte differentiation and reduces body fat accumulation."
+    },
+    "prebiotic": {
+      "label": "Prebiotic",
+      "description": "Enriches beneficial gut microbiota, especially Bifidobacterium and Lactobacillus."
+    },
+    "weight-loss": {
+      "label": "Weight Management",
+      "description": "Reduces total body fat and prevents weight gain in experimental models."
+    },
+    "glucose-control": {
+      "label": "Glycemic Control",
+      "description": "Reduces fasting glucose, HbA1c, and improves insulin sensitivity."
+    },
+    "lipid-management": {
+      "label": "Lipid Management",
+      "description": "Reduces total cholesterol, triglycerides, and LDL, while increasing HDL."
+    },
+    "gut-health": {
+      "label": "Gastrointestinal Health",
+      "description": "Improves bowel function, protects intestinal mucosa, and produces short-chain fatty acids."
+    },
+    "barrier-integrity": {
+      "label": "Intestinal Barrier Integrity",
+      "description": "Strengthens mucosa, increases mucus production, and protects colonic epithelial architecture."
+    },
+    "metabolic-syndrome": {
+      "label": "Metabolic Syndrome",
+      "description": "Helps reduce insulin resistance, adiposity, steatosis, and other metabolic syndrome markers."
+    },
+    "endothelial-function": {
+      "label": "Endothelial Function",
+      "description": "Improves endothelium-dependent vasodilation and vascular lining health."
+    },
+    "cardioprotective": {
+      "label": "Cardioprotective",
+      "description": "Reduces cardiovascular risk and supports vascular, thrombotic, and metabolic heart function."
+    },
+    "blood-pressure": {
+      "label": "Blood Pressure",
+      "description": "Significantly reduces systolic and diastolic blood pressure in adults with hypertension."
+    },
+    "stroke-prevention": {
+      "label": "Stroke Prevention",
+      "description": "Reduces stroke risk by 4% per additional cup of daily consumption."
+    },
+    "cholesterol-glucose": {
+      "label": "Cholesterol & Glucose Control",
+      "description": "Supports healthier lipid and glycemic profiles through bioactive polyphenols and catechins."
+    },
+    "gut-microbiota": {
+      "label": "Gut Microbiota",
+      "description": "Modulates the intestinal microbial community and favors metabolites linked to systemic health."
+    },
+    "antimicrobial": {
+      "label": "Antimicrobial",
+      "description": "Inhibits growth of pathogenic bacteria including Staphylococcus, E. coli, and resistant ESKAPE pathogens."
+    },
+    "antidiabetic": {
+      "label": "Antidiabetic",
+      "description": "Improves glucose metabolism and insulin function with effects comparable to metformin."
+    },
+    "wound-healing": {
+      "label": "Wound Healing",
+      "description": "Promotes cell migration and tissue repair."
+    }
+  },
+  "home": {
+    "intro": "Peer-reviewed scientific research on the 5 active ingredients in MultyHealth.",
+    "exploreBtn": "Explore studies",
+    "featured": "Explore evidence by ingredient",
+    "heroBadge": "Bilingual scientific database",
+    "naturalIngredients": "Natural ingredients",
+    "scientificStudies": "Scientific studies"
+  }
+}

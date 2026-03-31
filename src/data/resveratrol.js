@@ -1,0 +1,152 @@
+import uvaImg from '../assets/uva.jpg'
+
+export default {
+  id: 'resveratrol',
+  slug: 'resveratrol',
+  image: uvaImg,
+  studies: [
+    {
+      id: 'res-001',
+      title: 'Grape Resveratrol Increases Serum Adiponectin and Downregulates Inflammatory Genes in Peripheral Blood Mononuclear Cells',
+      authors: ['Tomé-Carneiro J', 'Gonzálvez M', 'Larrosa M', 'et al.'],
+      journal: 'Cardiovascular Drugs and Therapy',
+      year: 2012,
+      pmid: '23224687',
+      doi: null,
+      summary: {
+        es: 'Ensayo clínico triple-ciego de 75 pacientes con enfermedad arterial coronaria estable. El grupo con extracto de uva con resveratrol mostró aumento de adiponectina sérica (9.6%, p=0.01) y disminución del inhibidor de activador de plasminógeno tipo 1 (-18.6%). Se predijo que 6 factores de transcripción relacionados con la inflamación fueron significativamente modulados.',
+        en: 'Triple-blind clinical trial with 75 stable coronary artery disease patients. The grape extract with resveratrol group showed increased serum adiponectin (9.6%, p=0.01) and decreased plasminogen activator inhibitor type 1 (-18.6%). Six inflammation-related transcription factors were predicted to be significantly modulated.',
+      },
+    },
+    {
+      id: 'res-002',
+      title: 'Cardioprotection by Resveratrol: A Human Clinical Trial in Patients with Stable Coronary Artery Disease',
+      authors: ['Magyar K', 'Halmosi R', 'Palfi A', 'et al.'],
+      journal: 'Clinical Hemorheology and Microcirculation',
+      year: 2012,
+      pmid: '22240353',
+      doi: null,
+      summary: {
+        es: 'En un ensayo controlado aleatorizado, 40 pacientes post-infarto recibieron 10 mg/día de resveratrol durante tres meses. La función diastólica del ventrículo izquierdo mejoró significativamente (p<0.01), la vasodilatación mediada por flujo aumentó (p<0.05), y el colesterol LDL disminuyó significativamente (p<0.05).',
+        en: 'In a randomized controlled trial, 40 post-infarct patients received 10 mg/day of resveratrol for three months. Left ventricular diastolic function improved significantly (p<0.01), flow-mediated vasodilation increased (p<0.05), and LDL cholesterol decreased significantly (p<0.05).',
+      },
+    },
+    {
+      id: 'res-003',
+      title: 'Resveratrol Potentiates Grape Seed Extract Induced Human Colon Cancer Cell Apoptosis',
+      authors: ['Kaur M', 'Singh RP', 'Gu M', 'Agarwal R', 'Agarwal C'],
+      journal: 'Frontiers in Bioscience (Elite Edition)',
+      year: 2011,
+      pmid: '21622155',
+      doi: null,
+      summary: {
+        es: 'El resveratrol (~25 μM) potencializó la apoptosis inducida por extracto de semilla de uva vía activación de vías dependientes de p53. La apoptosis fue más pronunciada en células p53+/+ que en células p53-/-. La inhibición de caspasa-3 y la supresión de ROS atenuaron la apoptosis inducida por la combinación.',
+        en: 'Resveratrol (~25 μM) potentiated grape seed extract-induced apoptosis via activation of p53-dependent pathways. Apoptosis was more pronounced in p53+/+ cells than p53-/- cells. Caspase-3 inhibition and ROS suppression attenuated the combination-induced apoptosis.',
+      },
+    },
+    {
+      id: 'res-004',
+      title: 'Effect of the Intake of Resveratrol, Resveratrol Phosphate, and Catechin-Rich Grape Seed Extract on Markers of Oxidative Stress in Adult Obese Subjects',
+      authors: ['Tome-Carneiro J', 'Larrosa M', 'Yañez-Gascon MJ', 'et al.'],
+      journal: 'European Review for Medical and Pharmacological Sciences',
+      year: 2012,
+      pmid: '22776850',
+      doi: null,
+      summary: {
+        es: 'El resveratrol fosfato (RTP) y el extracto de semilla de uva rico en catequinas (CGSE) mostraron mejores actividades antioxidantes que el resveratrol estándar en sujetos obesos. Ambos compuestos indujeron modulaciones importantes de la expresión génica relacionada con el estrés oxidativo.',
+        en: 'Resveratrol phosphate (RTP) and catechin-rich grape seed extract (CGSE) showed better antioxidant activities than standard resveratrol in obese subjects. Both compounds induced important modulations in gene expression related to oxidative stress.',
+      },
+    },
+    {
+      id: 'res-005',
+      title: 'Anti-obesity Effect of Resveratrol-Amplified Grape Skin Extracts on 3T3-L1 Adipocytes Differentiation',
+      authors: ['Rayalam S', 'Yang JY', 'Ambati S', 'Della-Fera MA', 'Baile CA'],
+      journal: 'Journal of Agricultural and Food Chemistry',
+      year: 2008,
+      pmid: '22977681',
+      doi: null,
+      summary: {
+        es: 'Los extractos de piel de uva amplificados con resveratrol suprimieron la expresión de factores de transcripción adipogénicos críticos. Disminuyeron la acumulación de lípidos y la actividad de glicerol-3-fosfato deshidrogenasa en células 3T3-L1. Los extractos regularon a la baja genes de obesidad incluyendo PPARγ, C/EBPα, FAS, aP2 y SCD-1.',
+        en: 'Resveratrol-amplified grape skin extracts suppressed expression of critical adipogenic transcription factors. They decreased lipid accumulation and glycerol-3-phosphate dehydrogenase activity in 3T3-L1 cells. The extracts downregulated obesity genes including PPARγ, C/EBPα, FAS, aP2, and SCD-1.',
+      },
+    },
+    {
+      id: 'res-006',
+      title: 'The Pharmacological Properties of Red Grape Polyphenol Resveratrol: Clinical Trials and Obstacles in Drug Development',
+      authors: ['Farhan M', 'Rizvi A'],
+      journal: 'Nutrients',
+      year: 2023,
+      pmid: '37892561',
+      doi: null,
+      summary: {
+        es: 'Revisión que documentó 244 ensayos clínicos finalizados y 27 en curso examinando el potencial terapéutico del resveratrol. Ensayos cardiovasculares (500-600 mg/día) mostraron efectos mixtos. Ensayos de diabetes (250-1000 mg/día) mostraron mejoras en HbA1c. Estudios de cáncer colorrectal mostraron disminución de la proliferación tumoral.',
+        en: 'Review documenting 244 completed and 27 ongoing clinical trials examining resveratrol\'s therapeutic potential. Cardiovascular trials (500-600 mg/day) showed mixed effects. Diabetes trials (250-1000 mg/day) showed HbA1c improvements. Colorectal cancer studies showed decreased tumor cell proliferation.',
+      },
+    },
+    {
+      id: 'res-007',
+      title: 'Resveratrol for the Management of Human Health: A Systematic Review of Resveratrol Clinical Trials',
+      authors: ['Brown VA', 'Patel KR', 'Viskaduraki M', 'et al.'],
+      journal: 'International Journal of Molecular Sciences',
+      year: 2024,
+      pmid: '38255828',
+      doi: null,
+      summary: {
+        es: 'Revisión sistemática de casi 200 estudios clínicos que evaluaron resveratrol en al menos 24 condiciones médicas durante 20 años. El resveratrol mejora aspectos del metabolismo disregulado y reduce marcadores inflamatorios. Se requieren ensayos controlados aleatorios más grandes para recomendaciones definitivas.',
+        en: 'Systematic review of nearly 200 clinical studies evaluating resveratrol in at least 24 medical conditions over 20 years. Resveratrol improves aspects of dysregulated metabolism and reduces inflammatory markers. Larger randomized controlled trials are required for definitive recommendations.',
+      },
+    },
+    {
+      id: 'res-008',
+      title: 'Roles of Resveratrol and Other Grape-Derived Polyphenols in Alzheimer\'s Disease Prevention and Treatment',
+      authors: ['Hügel HM', 'Jackson N', 'May B', 'Zhang AL', 'Xue CC'],
+      journal: 'Biochimica et Biophysica Acta',
+      year: 2014,
+      pmid: null,
+      doi: null,
+      url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4380832/',
+      sourceLabel: 'PMC 4380832',
+      summary: {
+        es: 'Los polifenoles derivados de uvas previenen la enfermedad de Alzheimer modulando la generación y clearance de péptido beta-amiloide, fosforilación de tau y agregación, neuroinflamación y plasticidad sináptica. El jugo de uva Concord suplementado mejoró significativamente la función de memoria en sujetos con deterioro cognitivo leve.',
+        en: 'Grape-derived polyphenols prevent Alzheimer\'s disease by modulating beta-amyloid peptide generation and clearance, tau phosphorylation and aggregation, neuroinflammation, and synaptic plasticity. Supplemented Concord grape juice significantly improved memory function in subjects with mild cognitive impairment.',
+      },
+    },
+  ],
+  properties: [
+    {
+      id: 'prop-res-cardiovascular',
+      key: 'cardiovascular',
+      studyIds: ['res-001', 'res-002', 'res-006'],
+    },
+    {
+      id: 'prop-res-antioxidant',
+      key: 'antioxidant',
+      studyIds: ['res-004', 'res-007'],
+    },
+    {
+      id: 'prop-res-anti-inflammatory',
+      key: 'anti-inflammatory',
+      studyIds: ['res-001', 'res-007'],
+    },
+    {
+      id: 'prop-res-anticancer',
+      key: 'anticancer-colon',
+      studyIds: ['res-003', 'res-006'],
+    },
+    {
+      id: 'prop-res-metabolic',
+      key: 'metabolic',
+      studyIds: ['res-006', 'res-007'],
+    },
+    {
+      id: 'prop-res-neuroprotective',
+      key: 'neuroprotective',
+      studyIds: ['res-008'],
+    },
+    {
+      id: 'prop-res-anti-obesity',
+      key: 'anti-obesity',
+      studyIds: ['res-005'],
+    },
+  ],
+}

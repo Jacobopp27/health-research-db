@@ -1,0 +1,163 @@
+import ganodermaImg from '../assets/ganoderma.jpg'
+
+export default {
+  id: 'ganoderma',
+  slug: 'ganoderma-lucidum',
+  image: ganodermaImg,
+  studies: [
+    {
+      id: 'gan-001',
+      title: 'Anticancer Effects of Ganoderma lucidum: A Review of Scientific Evidence',
+      authors: ['Yuen JW', 'Gohel MD'],
+      journal: 'Nutrition and Cancer',
+      year: 2005,
+      pmid: '16351502',
+      doi: null,
+      summary: {
+        es: 'La revisión examinó la evidencia de que las células inmunitarias y la reactividad mitogénica de pacientes con cáncer fueron mejoradas por Ganoderma en ensayos aleatorizados, con aproximadamente 65% de pacientes con cáncer de pulmón mostrando mejora en la calidad de vida. Se identificaron mecanismos citotóxicos directos y anti-angiogénesis en estudios in vitro.',
+        en: 'The review examined evidence that immune cells and mitogenic reactivity of cancer patients were enhanced by Ganoderma in randomized trials, with approximately 65% of lung cancer patients showing improved quality of life. Direct cytotoxic mechanisms and anti-angiogenesis were identified in in vitro studies.',
+      },
+    },
+    {
+      id: 'gan-002',
+      title: 'Ganoderma lucidum Polysaccharides: Immunomodulation and Potential Anti-Tumor Activities',
+      authors: ['Xu Z', 'Chen X', 'Zhong Z', 'Chen L', 'Wang Y'],
+      journal: 'American Journal of Chinese Medicine',
+      year: 2011,
+      pmid: '21213395',
+      doi: '10.1142/S0192415X11008610',
+      summary: {
+        es: 'Las actividades anti-tumorales de los polisacáridos de GL (GLPS) se median por mecanismos inmunomoduladores, anti-angiogénesis y citotóxicos directos. Los polisacáridos influyen en múltiples componentes inmunológicos incluyendo linfocitos B y T, células dendríticas, macrófagos y células asesinas naturales.',
+        en: 'The anti-tumor activities of Ganoderma lucidum polysaccharides (GLPS) are mediated by immunomodulatory, anti-angiogenic, and direct cytotoxic mechanisms. The polysaccharides influence multiple immunological components including B and T lymphocytes, dendritic cells, macrophages, and natural killer cells.',
+      },
+    },
+    {
+      id: 'gan-003',
+      title: 'Ganoderma lucidum Polysaccharides as an Anti-Cancer Agent',
+      authors: ['Sohretoglu D', 'Huang S'],
+      journal: 'Anticancer Agents in Medicinal Chemistry',
+      year: 2018,
+      pmid: '29141563',
+      doi: '10.2174/1871520617666171113121246',
+      summary: {
+        es: 'Los polisacáridos de Ganoderma lucidum poseen actividad anticancerosa potencial a través de efectos inmunomoduladores, anti-proliferativos, pro-apoptóticos, anti-metastásicos y anti-angiogénicos. Se ha utilizado durante siglos en países asiáticos como terapia adyuvante alternativa sin toxicidad obvia.',
+        en: 'Ganoderma lucidum polysaccharides possess potential anticancer activity through immunomodulatory, anti-proliferative, pro-apoptotic, anti-metastatic, and anti-angiogenic effects. It has been used for centuries in Asian countries as an alternative adjuvant therapy without obvious toxicity.',
+      },
+    },
+    {
+      id: 'gan-004',
+      title: 'Effects of Ganopoly on the Immune Functions in Advanced-Stage Cancer Patients',
+      authors: ['Gao Y', 'Zhou W', 'Jiang Z', 'Huang J', 'Dai X'],
+      journal: 'Immunological Investigation',
+      year: 2003,
+      pmid: '12916709',
+      doi: null,
+      summary: {
+        es: 'Ensayo clínico con 34 pacientes con cáncer avanzado tratados con 1,800 mg de Ganopoly tres veces al día durante 12 semanas. Se observó aumento notable de citocinas, mayor actividad de células NK, activación mejorada de linfocitos y aumento de células CD56+. El Ganopoly mejoró significativamente las respuestas inmunológicas.',
+        en: 'Clinical trial with 34 advanced-stage cancer patients treated with 1,800 mg of Ganopoly three times daily for 12 weeks. Notable increases in cytokine levels, enhanced NK cell activity, improved lymphocyte activation, and increased CD56+ cells were observed. Ganopoly significantly improved immunological responses.',
+      },
+    },
+    {
+      id: 'gan-005',
+      title: 'Ganoderma lucidum Polysaccharide Extract Inhibits Hepatocellular Carcinoma Growth by Downregulating Regulatory T Cells via MicroRNA-125b',
+      authors: ['Chen X', 'Hu ZP', 'Yang XX', 'et al.'],
+      journal: 'Journal of Translational Medicine',
+      year: 2015,
+      pmid: '25889022',
+      doi: null,
+      summary: {
+        es: 'El extracto de polisacáridos de GL suprimió significativamente el crecimiento tumoral en ratones portadores de hepatoma, asociado con un aumento de la proporción de células T efectoras a células T regulatorias. El microRNA-125b fue implicado en el efecto de GLPS en las células T regulatorias intratumorales.',
+        en: 'Ganoderma lucidum polysaccharide extract significantly suppressed tumor growth in hepatoma-bearing mice, associated with an increased ratio of effector T cells to regulatory T cells. MicroRNA-125b was implicated in the effect of GLPS on intratumoral regulatory T cells.',
+      },
+    },
+    {
+      id: 'gan-006',
+      title: 'Antitumor and Immunomodulatory Activities of Ganoderma lucidum Polysaccharides in Glioma-Bearing Rats',
+      authors: ['Wang C', 'Shi S', 'Chen Q', 'Lin S', 'Wang R', 'Wang S', 'Chen C'],
+      journal: 'Integrative Cancer Therapies',
+      year: 2018,
+      pmid: '29607690',
+      doi: null,
+      summary: {
+        es: 'GL-PS aumentó las concentraciones séricas de IL-2, TNF-α e IFN-γ, y mejoró la actividad citotóxica de células NK y células T en ratas con glioma. La dosis óptima de 100 mg/kg ralentizó significativamente la tumorigénesis y aumentó el tiempo de supervivencia de los animales.',
+        en: 'GL-PS increased serum concentrations of IL-2, TNF-α, and IFN-γ, and enhanced NK and T-cell cytotoxic activity in glioma-bearing rats. The optimal dose of 100 mg/kg significantly slowed tumorigenesis and increased animal survival time.',
+      },
+    },
+    {
+      id: 'gan-007',
+      title: 'Effects of Polysaccharides Extracted from Ganoderma lucidum on Chemotherapy-Related Fatigue in Mice',
+      authors: ['Chen S', 'Li Z', 'Krochmal R', 'Abrazado M', 'Kim W', 'Cooper CB'],
+      journal: 'International Journal of Biological Macromolecules',
+      year: 2016,
+      pmid: '27208798',
+      doi: null,
+      summary: {
+        es: 'Los polisacáridos de GL de dosis media y alta aumentaron la capacidad de nado en ratones sometidos a quimioterapia. Redujeron los niveles séricos de TNF-α e IL-6, el malondialdehído y aumentaron la actividad de superóxido dismutasa, demostrando efectos antifatiga y antioxidantes simultáneos.',
+        en: 'Medium and high dose Ganoderma lucidum polysaccharides increased swimming capacity in chemotherapy-treated mice. They reduced serum TNF-α and IL-6 levels, decreased malondialdehyde, and increased superoxide dismutase activity, demonstrating simultaneous anti-fatigue and antioxidant effects.',
+      },
+    },
+    {
+      id: 'gan-008',
+      title: 'Effects of Water-Soluble Ganoderma lucidum Polysaccharides on the Immune Functions of Patients with Advanced Lung Cancer',
+      authors: ['Gao Y', 'Tang W', 'Dai X', 'et al.'],
+      journal: 'Journal of Medicinal Food',
+      year: 2005,
+      pmid: '16117607',
+      doi: '10.1089/jmf.2005.8.159',
+      summary: {
+        es: 'Estudio abierto con 36 pacientes con cáncer de pulmón avanzado tratados con 5.4 g/día de Ganopoly durante 12 semanas. Algunos pacientes mostraron funciones inmunológicas marcadamente moduladas. El polisacárido fue bien tolerado y demostró potencial anti-tumor en este contexto clínico.',
+        en: 'Open-label study with 36 advanced lung cancer patients treated with 5.4 g/day of Ganopoly for 12 weeks. Some patients showed markedly modulated immune functions. The polysaccharide was well tolerated and demonstrated anti-tumor potential in this clinical setting.',
+      },
+    },
+    {
+      id: 'gan-009',
+      title: 'Improved Antitumor Activity of Cisplatin Combined with Ganoderma lucidum Polysaccharides in U14 Cervical Carcinoma-Bearing Mice',
+      authors: ['Liu C', 'Dunkin D', 'Lai J', 'et al.'],
+      journal: 'The Kaohsiung Journal of Medical Sciences',
+      year: 2019,
+      pmid: '30958641',
+      doi: null,
+      summary: {
+        es: 'GPS combinado con cisplatino inhibió el crecimiento tumoral y mejoró los índices de bazo y timo en ratones con carcinoma cervical U14. El número de células tumorales apoptóticas aumentó significativamente, la expresión de Bax aumentó y la expresión de Bcl-2 disminuyó dramáticamente.',
+        en: 'GPS combined with cisplatin inhibited tumor growth and improved spleen and thymus indices in mice bearing U14 cervical carcinoma. The number of apoptotic tumor cells increased significantly, Bax expression increased, and Bcl-2 expression decreased dramatically.',
+      },
+    },
+  ],
+  properties: [
+    {
+      id: 'prop-gan-anticancer',
+      key: 'anticancer',
+      studyIds: ['gan-001', 'gan-003', 'gan-009'],
+    },
+    {
+      id: 'prop-gan-immunomodulatory',
+      key: 'immunomodulatory',
+      studyIds: ['gan-002', 'gan-004', 'gan-006', 'gan-008'],
+    },
+    {
+      id: 'prop-gan-antioxidant',
+      key: 'antioxidant',
+      studyIds: ['gan-007'],
+    },
+    {
+      id: 'prop-gan-hepatoprotective',
+      key: 'hepatoprotective',
+      studyIds: ['gan-005'],
+    },
+    {
+      id: 'prop-gan-anti-fatigue',
+      key: 'anti-fatigue',
+      studyIds: ['gan-007'],
+    },
+    {
+      id: 'prop-gan-anti-inflammatory',
+      key: 'anti-inflammatory',
+      studyIds: ['gan-006', 'gan-007'],
+    },
+    {
+      id: 'prop-gan-neuroprotective',
+      key: 'neuroprotective',
+      studyIds: ['gan-006'],
+    },
+  ],
+}
