@@ -14,40 +14,44 @@ function PropertyCard({ property, studies, onOpenStudy }) {
       boxShadow: '0 1px 6px rgba(0,0,0,0.06)',
       fontFamily: '"Poppins", system-ui, sans-serif',
     }}>
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: 14 }}>
-        <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'flex-start', gap: 14 }}>
-          <div style={{
-            width: 40, height: 40, borderRadius: '50%', flexShrink: 0,
-            background: 'linear-gradient(135deg, #f0faf0, #dcf0dc)',
-            border: '1px solid #b8e0ba',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            marginTop: 2,
-          }}>
-            <CheckCircle2 size={18} color="#2a7530" strokeWidth={2.2} />
-          </div>
-          <div>
-            <h2 style={{
-              fontFamily: '"Lora", Georgia, serif',
-              fontSize: 21, fontWeight: 700, color: '#1e293b', margin: 0,
-            }}>
-              {t(`properties.${property.key}.label`)}
-            </h2>
-            <p style={{ marginTop: 8, fontSize: 13.5, lineHeight: 1.75, color: '#475569', maxWidth: 680 }}>
-              {t(`properties.${property.key}.description`)}
-            </p>
-          </div>
-        </div>
+      {/* Badge — siempre arriba, no compite con el título */}
+      <div style={{ marginBottom: 14 }}>
         <span style={{
+          display: 'inline-flex',
           background: 'linear-gradient(135deg, #2a7530, #1a4d1f)',
           color: '#fff',
-          borderRadius: 999, padding: '5px 14px',
-          fontSize: 11, fontWeight: 700, flexShrink: 0, alignSelf: 'flex-start',
+          borderRadius: 999, padding: '4px 13px',
+          fontSize: 11, fontWeight: 700,
           whiteSpace: 'nowrap',
           boxShadow: '0 2px 6px rgba(42,117,48,0.3)',
           letterSpacing: '0.04em',
         }}>
           {t('property.supportedBy', { count: studies.length })}
         </span>
+      </div>
+
+      {/* Título + descripción */}
+      <div style={{ display: 'flex', alignItems: 'flex-start', gap: 14 }}>
+        <div style={{
+          width: 40, height: 40, borderRadius: '50%', flexShrink: 0,
+          background: 'linear-gradient(135deg, #f0faf0, #dcf0dc)',
+          border: '1px solid #b8e0ba',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          marginTop: 2,
+        }}>
+          <CheckCircle2 size={18} color="#2a7530" strokeWidth={2.2} />
+        </div>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <h2 style={{
+            fontFamily: '"Lora", Georgia, serif',
+            fontSize: 21, fontWeight: 700, color: '#1e293b', margin: 0,
+          }}>
+            {t(`properties.${property.key}.label`)}
+          </h2>
+          <p style={{ marginTop: 8, fontSize: 13.5, lineHeight: 1.75, color: '#475569' }}>
+            {t(`properties.${property.key}.description`)}
+          </p>
+        </div>
       </div>
 
       <div style={{

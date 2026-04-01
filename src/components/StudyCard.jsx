@@ -22,60 +22,59 @@ function StudyCard({ study, language }) {
         borderLeft: '4px solid #2a7530',
       }}
     >
-      {/* Top row: journal/year badge + link */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: 14 }}>
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, marginBottom: 12 }}>
-            <span style={{
-              background: '#f0faf0', color: '#1a4d1f',
-              border: '1px solid #b8e0ba',
-              borderRadius: 999, padding: '3px 12px',
-              fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase',
-            }}>{study.journal}</span>
-            <span style={{
-              background: '#fefce8', color: '#854d0e',
-              border: '1px solid #fef08a',
-              borderRadius: 999, padding: '3px 10px',
-              fontSize: 11, fontWeight: 700,
-            }}>{study.year}</span>
-          </div>
-          <h2 style={{
-            fontFamily: '"Lora", Georgia, serif',
-            fontSize: 19, fontWeight: 700, lineHeight: 1.42,
-            color: '#1e293b', margin: 0,
-          }}>{study.title}</h2>
-        </div>
-
-        {studyUrl && (
-          <a
-            href={studyUrl}
-            target="_blank"
-            rel="noreferrer"
-            onMouseEnter={() => setLinkHovered(true)}
-            onMouseLeave={() => setLinkHovered(false)}
-            style={{
-              display: 'inline-flex', alignItems: 'center', gap: 7,
-              border: '2px solid',
-              borderColor: linkHovered ? '#1a4d1f' : '#2a7530',
-              borderRadius: 8,
-              background: linkHovered ? '#2a7530' : '#fff',
-              padding: '8px 14px',
-              fontSize: 12, fontWeight: 700,
-              color: linkHovered ? '#fff' : '#1a4d1f',
-              textDecoration: 'none', flexShrink: 0,
-              transition: 'all 0.18s',
-            }}
-          >
-            <FileText size={14} />
-            <span>
-              {study.pmid
-                ? t('study.viewPubmed')
-                : study.doi ? t('study.viewDoi') : t('study.viewSource')}
-            </span>
-            <ArrowUpRight size={13} />
-          </a>
-        )}
+      {/* Badges: journal + year — ancho completo */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+        <span style={{
+          background: '#f0faf0', color: '#1a4d1f',
+          border: '1px solid #b8e0ba',
+          borderRadius: 999, padding: '3px 12px',
+          fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase',
+        }}>{study.journal}</span>
+        <span style={{
+          background: '#fefce8', color: '#854d0e',
+          border: '1px solid #fef08a',
+          borderRadius: 999, padding: '3px 10px',
+          fontSize: 11, fontWeight: 700,
+        }}>{study.year}</span>
       </div>
+
+      {/* Título — siempre ancho completo */}
+      <h2 style={{
+        fontFamily: '"Lora", Georgia, serif',
+        fontSize: 19, fontWeight: 700, lineHeight: 1.45,
+        color: '#1e293b', margin: '0 0 14px',
+      }}>{study.title}</h2>
+
+      {/* Botón — debajo del título, alineado a la izquierda */}
+      {studyUrl && (
+        <a
+          href={studyUrl}
+          target="_blank"
+          rel="noreferrer"
+          onMouseEnter={() => setLinkHovered(true)}
+          onMouseLeave={() => setLinkHovered(false)}
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: 7,
+            border: '2px solid',
+            borderColor: linkHovered ? '#1a4d1f' : '#2a7530',
+            borderRadius: 8,
+            background: linkHovered ? '#2a7530' : '#fff',
+            padding: '7px 14px',
+            fontSize: 12, fontWeight: 700,
+            color: linkHovered ? '#fff' : '#1a4d1f',
+            textDecoration: 'none',
+            transition: 'all 0.18s',
+          }}
+        >
+          <FileText size={14} />
+          <span>
+            {study.pmid
+              ? t('study.viewPubmed')
+              : study.doi ? t('study.viewDoi') : t('study.viewSource')}
+          </span>
+          <ArrowUpRight size={13} />
+        </a>
+      )}
 
       {/* Meta row */}
       <div style={{
